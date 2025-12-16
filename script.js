@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             clearTimeout(hoverTimeout);
             video.pause();
             video.currentTime = 0;
+            video.load(); // Força o recarregamento do vídeo, exibindo o poster.
         });
 
         videoItem.addEventListener('click', () => {
@@ -48,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 videoItem.className = 'video-item';
                 videoItem.innerHTML = `
                     <div class="video-embed">
-                        <video muted loop preload="metadata">
+                        <video muted loop preload="metadata" poster="${videoData.thumbnail}">
                             <source src="${videoData.src}" type="video/mp4">
                             Seu navegador não suporta a tag de vídeo.
                         </video>

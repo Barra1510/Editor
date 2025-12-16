@@ -1,31 +1,37 @@
 [
   {
     "src": "Vídeos/Vídeos para o site/Miranda Faz.mp4",
+    "thumbnail": "Thumbnails/Miranda Faz.png",
     "title": "Miranda Faz",
     "description": "Projeto feito para Prefeitura de Mesquita, fui responsável tanto pela edição quanto o Motion dentro do projeto."
   },
   {
     "src": "Vídeos/Vídeos para o site/Totem TV.mp4",
+    "thumbnail": "Thumbnails/Totem TV.png",
     "title": "Totens",
     "description": "Animações que eram mostradas nas Televisões e Totens da cidade de Mesquita. Todos os elementos do vídeo tirando as gravações e fotos foram feitos por mim."
   },
   {
     "src": "Vídeos/Vídeos para o site/7 JOGOS QUE ME MARCARAM - BARRA.mp4",
+    "thumbnail": "Thumbnails/7 JOGOS QUE ME MARCARAM - BARRA.png",
     "title": "Vídeo do Youtube",
     "description": "Vídeo do meu canal do youtube, que eu uso para fazer experiências. Neles executo todas as funções desde a roterização, gravação até a edição e finalização dos vídeos."
   },
   {
     "src": "Vídeos/Vídeos para o site/Compilado de trabalhos 2022.mp4",
+    "thumbnail": "Thumbnails/Compilado de trabalhos 2022.png",
     "title": "Compilado de animações",
     "description": "Projetos compilados de trabalhos feitos no curso Movin Motion que fiz durante o ano de 2022. Neste curso aprendi técnicas novas de animação 2d e 3d, utilizei o Blender e as ferramentas da Adobe na maioria dos projetos."
   },
   {
     "src": "Vídeos/Vídeos para o site/Compilado 3D.mp4",
+    "thumbnail": "Thumbnails/Compilado 3D.png",
     "title": "Compilado de 3Ds",
     "description": "Projetos compilados de modelagem e animação 3D das Clínicas da Família de Mesquita. Feito para os reels do instagram. Este projeto executei a modelagem e inserção dos modelos trackeados dentro de vídeos feitos por drones. A ídeia era inserir os modelos nos locais de obras que ainda não haviam sido concluidas. Projeto feito com Blender, After Effects e uma ajudinha do AutoCad."
   },
   {
     "src": "Vídeos/Vídeos para o site/Compilado defesa civil.mp4",
+    "thumbnail": "Thumbnails/Compilado defesa civil.png",
     "title": "Animações para Prefeitura de Mesquita",
     "description": "Projetos compilados animação 2D. Feito para os reels do instagram. \n Neste projeto executei animações utilizando tanto o Blender quanto o After Effects, para animar os elementos feitos pela equipe de design."
   }
