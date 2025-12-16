@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Luckiest+Guy&family=Titan+One&display=swap');
+/* Reset básico e fontes */
+body {
+    margin: 0;    
+    background-color: #003572;
+    color: #eaeaea;
+    line-height: 1.6;
+}
+
+.container {
+    font-family: "Bree Serif", serif;
+    text-shadow: 4px 4px 2px black;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    font-family: "Titan One", sans-serif;
+    text-shadow: 4px 4px 2px black;
+    font-weight: 700;
+    color: #ffd900;
+}
+
+a {
+    color: #BB86FC;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Seção Hero (Cabeçalho) */
+.hero {    
+    font-family: 'Luckiest Guy', "cursive";
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden; /* Garante que o vídeo não ultrapasse os limites do header */
+    color: rgb(255, 255, 255); /* Pode ser necessário ajustar a cor do texto para garantir a legibilidade */
+}
+
+#bg-video { 
+    filter: blur(10px); 
+    opacity: 0.4;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Coloca o vídeo atrás de todo o conteúdo */
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    
+}
+
+/* Garante que o conteúdo do header fique na frente do vídeo */
+.hero .container {
+    position: relative;
+    z-index: 2;
+    text-shadow: 4px 4px 2px black;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #B3B3B3;
+}
+
+/* Seção do Portfólio */
+.portfolio-section {
+    padding: 60px 0;
+    
+}
+
+.portfolio-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.video-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+}
+
+.video-item {
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out, z-index 0s 0.15s;
+}
+
+.video-item:hover {
+    transform: scale(1.15);
+    z-index: 10;
+}
+.video-item h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.video-item p {
+    color: #B3B3B3;
+    font-size: 0.9rem;
+}
+
+/* Estilo para o embed do vídeo */
+.video-embed {
+    overflow: hidden;
+    background-color: #000000;
+    border-radius: 8px;
+    line-height: 0; /* Remove espaço extra abaixo do vídeo */
+}
+
+.video-embed video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Garante que o vídeo também tenha bordas arredondadas */
+}
+
+/* Seção Sobre e Rodapé */
+.about-section, .footer {
+    background-color: #1f1f1f;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about-section h2, .footer h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.about-section p, .footer p {
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .video-gallery {
+        grid-template-columns: 1fr; /* Uma coluna em telas pequenas */
+    }
+}
+
+/* Estilos para o contêiner das redes sociais no rodapé */
+.redes-sociais {
+  text-align: center; /* Centraliza os ícones */
+  margin-bottom: 1rem;
+}
+
+/* Estilos para cada link/ícone */
+.redes-sociais a {
+  color: #333; /* Cor padrão dos ícones */
+  font-size: 1.5rem; /* Tamanho dos ícones */
+  margin: 0 0.5rem; /* Espaçamento entre os ícones */
+  text-decoration: none; /* Remove o sublinhado do link */
+  transition: color 0.3s ease; /* Efeito suave na mudança de cor */
+}
+
+/* Muda a cor do ícone ao passar o mouse sobre ele */
+.redes-sociais a:hover {
+  color: #007bff; /* Uma cor de destaque */
+}
+
+/* Estilo para o texto de copyright */
+footer p {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #6c757d;
+}
