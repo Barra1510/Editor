@@ -1,10 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Luckiest+Guy&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bungee&family=Luckiest+Guy&family=Titan+One&display=swap');
 /* Reset básico e fontes */
 body {
     margin: 0;    
     background-color: #003572;
-    color: #eaeaea;
+    color: #ffffff;
     line-height: 1.6;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Titan One", sans-serif;
+     font-family: "Bungee", sans-serif;
     text-shadow: 4px 4px 2px black;
     font-weight: 700;
     color: #ffd900;
@@ -62,7 +62,7 @@ a:hover {
 .hero .container {
     position: relative;
     z-index: 2;
-    text-shadow: 4px 4px 2px black;
+    text-shadow: 4px 2px 5px black;
 }
 
 .hero h1 {
@@ -73,7 +73,7 @@ a:hover {
 
 .hero p {
     font-size: 1.2rem;
-    color: #B3B3B3;
+    color: #ffffff;
 }
 
 /* Seção do Portfólio */
@@ -110,8 +110,9 @@ a:hover {
 }
 
 .video-item p {
-    color: #B3B3B3;
-    font-size: 0.9rem;
+    color: #ffffff;
+    font-size: 16px;
+    text-shadow: 2px 2px 5px black;
 }
 
 /* Estilo para o embed do vídeo */
@@ -132,17 +133,19 @@ a:hover {
 .about-section, .footer {
     background-color: #1f1f1f;
     padding: 60px 0;
-    text-align: center;
+    text-align: center;    
+    color: #ffffff;
 }
 
 .about-section h2, .footer h2 {
     font-size: 2.5rem;
-    margin-top: 0;
+    margin-top: 0;    
 }
 
 .about-section p, .footer p {
     max-width: 600px;
     margin: 10px auto;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
 /* Responsividade para telas menores */
@@ -163,7 +166,7 @@ a:hover {
 
 /* Estilos para cada link/ícone */
 .redes-sociais a {
-  color: #333; /* Cor padrão dos ícones */
+  color: #ffe600; /* Cor padrão dos ícones */
   font-size: 1.5rem; /* Tamanho dos ícones */
   margin: 0 0.5rem; /* Espaçamento entre os ícones */
   text-decoration: none; /* Remove o sublinhado do link */
@@ -179,5 +182,5 @@ a:hover {
 footer p {
   text-align: center;
   font-size: 0.8rem;
-  color: #6c757d;
+  color: #ffffff;  
 }
